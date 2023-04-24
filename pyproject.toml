@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "algorithmica-way"
+version = "0.1.0"
+description = ""
+authors = ["Matvey Dolzhenkov <dolzhenkov.matvey@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "algorithmica_way"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
